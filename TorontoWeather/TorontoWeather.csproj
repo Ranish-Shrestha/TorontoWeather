@@ -11,7 +11,7 @@
     <Copyright>Copyright © Ranish Shrestha 2024</Copyright>
     <PackageProjectUrl>example.com/tempfornow</PackageProjectUrl>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
-    <RepositoryUrl>github.com/tempfornow</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Ranish-Shrestha/TorontoWeather.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>weather,toronto,ranish,shrestha</PackageTags>
     <PackageReleaseNotes>In this version Json data is convert into string format which contains days with corresponding to maximum temperatures.</PackageReleaseNotes>
