@@ -1,24 +1,36 @@
-﻿# Title
-Weather App
+﻿# Weather App for Toronto
 
-# Dependencies 
-net8.0
-NETStandard.Library (>= 2.0.3)
-Newtonsoft.Json (>= 13.0.3)
-System.Net.Http (>= 4.3.4)
+### Package dependencies
 
-# Release Notes (for this version)
-This version only has Toronto weather.
+- net8.0
+- NETStandard.Library (>= 2.0.3)
+- Newtonsoft.Json (>= 13.0.3)
+- System.Net.Http (>= 4.3.4)
 
-# Description
-This is a package for Toronto Weather App.
+### Release Notes
 
+In this version Json data is convert into string format which contains days with corresponding to maximum temperatures.
 
-# How to use it
+### Description
+
+This is a package get weather detail for Toronto from open-meteo.
+
+### How to use it
+
+Define the variable for service as:
+
+```sh
 private readonly WeatherService _weatherService
-await _weatherService.GetTorontoWeatherAsync() - This will fetch the weather data for Toronto.
+```
 
-# Sample output:
+Use method `GetTorontoWeatherAsync` to get weather data in string format.
+
+```sh
+await _weatherService.GetTorontoWeatherAsync()
+```
+
+### Sample output:
+
 ```sh
 2024-11-12 (Tuesday): 4.4°C
 2024-11-13 (Wednesday): 5.1°C
@@ -29,5 +41,6 @@ await _weatherService.GetTorontoWeatherAsync() - This will fetch the weather dat
 2024-11-18 (Monday): 11.2°C
 ```
 
-# Copyright
+### Copyright
+
 Ranish Shrestha 2024
